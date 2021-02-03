@@ -18,6 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/test', function (Request $request) {
-   return 'api route test';
-});
+Route::get('/categories', 'CategoryController@index');

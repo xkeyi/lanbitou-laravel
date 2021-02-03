@@ -16,6 +16,13 @@ Route::group([
     $router->get('/', 'HomeController@index');
 
     $router->resource('users', 'UserController');
+    $router->get('api/users', 'UserController@apiIndex');
 
     $router->resource('categories', 'CategoryController');
+    $router->get('api/categories', 'CategoryController@apiIndex');
+
+    $router->resource('tags', 'TagController');
+    $router->get('api/tags', 'TagController@apiIndex');
+
+    $router->resource('articles', 'ArticleController');
 });

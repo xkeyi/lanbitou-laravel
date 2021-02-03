@@ -36,8 +36,16 @@ namespace Dcat\Admin {
      * @property Grid\Column|Collection password
      * @property Grid\Column|Collection remember_token
      * @property Grid\Column|Collection username
+     * @property Grid\Column|Collection article_id
+     * @property Grid\Column|Collection tag_id
+     * @property Grid\Column|Collection banner
+     * @property Grid\Column|Collection category_id
      * @property Grid\Column|Collection deleted_at
      * @property Grid\Column|Collection sort
+     * @property Grid\Column|Collection body
+     * @property Grid\Column|Collection contentable_id
+     * @property Grid\Column|Collection contentable_type
+     * @property Grid\Column|Collection markdown
      * @property Grid\Column|Collection connection
      * @property Grid\Column|Collection exception
      * @property Grid\Column|Collection failed_at
@@ -71,8 +79,16 @@ namespace Dcat\Admin {
      * @method Grid\Column|Collection password(string $label = null)
      * @method Grid\Column|Collection remember_token(string $label = null)
      * @method Grid\Column|Collection username(string $label = null)
+     * @method Grid\Column|Collection article_id(string $label = null)
+     * @method Grid\Column|Collection tag_id(string $label = null)
+     * @method Grid\Column|Collection banner(string $label = null)
+     * @method Grid\Column|Collection category_id(string $label = null)
      * @method Grid\Column|Collection deleted_at(string $label = null)
      * @method Grid\Column|Collection sort(string $label = null)
+     * @method Grid\Column|Collection body(string $label = null)
+     * @method Grid\Column|Collection contentable_id(string $label = null)
+     * @method Grid\Column|Collection contentable_type(string $label = null)
+     * @method Grid\Column|Collection markdown(string $label = null)
      * @method Grid\Column|Collection connection(string $label = null)
      * @method Grid\Column|Collection exception(string $label = null)
      * @method Grid\Column|Collection failed_at(string $label = null)
@@ -111,8 +127,16 @@ namespace Dcat\Admin {
      * @property Show\Field|Collection password
      * @property Show\Field|Collection remember_token
      * @property Show\Field|Collection username
+     * @property Show\Field|Collection article_id
+     * @property Show\Field|Collection tag_id
+     * @property Show\Field|Collection banner
+     * @property Show\Field|Collection category_id
      * @property Show\Field|Collection deleted_at
      * @property Show\Field|Collection sort
+     * @property Show\Field|Collection body
+     * @property Show\Field|Collection contentable_id
+     * @property Show\Field|Collection contentable_type
+     * @property Show\Field|Collection markdown
      * @property Show\Field|Collection connection
      * @property Show\Field|Collection exception
      * @property Show\Field|Collection failed_at
@@ -146,8 +170,16 @@ namespace Dcat\Admin {
      * @method Show\Field|Collection password(string $label = null)
      * @method Show\Field|Collection remember_token(string $label = null)
      * @method Show\Field|Collection username(string $label = null)
+     * @method Show\Field|Collection article_id(string $label = null)
+     * @method Show\Field|Collection tag_id(string $label = null)
+     * @method Show\Field|Collection banner(string $label = null)
+     * @method Show\Field|Collection category_id(string $label = null)
      * @method Show\Field|Collection deleted_at(string $label = null)
      * @method Show\Field|Collection sort(string $label = null)
+     * @method Show\Field|Collection body(string $label = null)
+     * @method Show\Field|Collection contentable_id(string $label = null)
+     * @method Show\Field|Collection contentable_type(string $label = null)
+     * @method Show\Field|Collection markdown(string $label = null)
      * @method Show\Field|Collection connection(string $label = null)
      * @method Show\Field|Collection exception(string $label = null)
      * @method Show\Field|Collection failed_at(string $label = null)

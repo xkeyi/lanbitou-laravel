@@ -6,20 +6,20 @@ use Dcat\Admin\Traits\HasDateTimeFormatter;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Model;
 
-class Category extends Model
+class Tag extends Model
 {
 	use HasDateTimeFormatter;
     use SoftDeletes;
 
-    protected $fillable = ['name', 'sort'];
+    protected $fillable = ['name', 'category_id'];
 
-    public  function tags()
+    public function category()
     {
-        return $this->hasMany('App\Models\Tag');
+        return $this->belongsTo('App\Models\Category');
     }
 
     public function articles()
     {
-        return $this->hasMany('App\Models\Article');
+        return $this->belongsToMany('App\Models\Article');
     }
 }
